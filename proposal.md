@@ -28,17 +28,17 @@ https://drive.google.com/drive/folders/1Knr2XjKzyxp0qlXE8TDpo4KdaIdVoK8Z
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario <br>2. CRUD Inmueble<br>3. CRUD TipoServicio<br/> 4.CRUD Propietario|
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Inmueble<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad|
 |CRUD dependiente|1. CRUD Precio {depende de} CRUD Inmueble<br>2. CRUD Consulta {depende de} CRUD Inmueble|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|Listado<br>+<br>detalle| 1. Listado de inmuebles filtrado por tipo de inmueble, muestra los atributos de cada tipo de inmueble => detalle CRUD Inmueble<br> 2. Listado de inmuebles filtrado por localidad, muestra los inmuebles de la localidad elegida => detalle muestra datos de cada inmueble|
+|CUU/Epic|1.Realizar una consulta<br>2. Registrar propietarios|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Usuario <br>2. CRUD Inmueble<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad <br/> 5. CRUD Precio <br>6. CRUD Consulta|
+|CUU/Epic|1. Registrar reseña<br>2. Moderar reseña (con API de IA o libreria)|
 
 
 ### Alcance Adicional Voluntario
@@ -47,7 +47,6 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Inmueble filtrado por mts2, antiguedad, fecha de publicacion<br>|
+|Otros|1. Envío de email cuando un usuario se registra y cuando un administrador responde la consulta de un cliente<br/>2. Manejo de archivos comoagregar imagenes del inmueble<br/> 3. Envio de email a los clientes en base a sus gustos|
 
