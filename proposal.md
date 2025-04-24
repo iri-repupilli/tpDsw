@@ -17,8 +17,7 @@
 Es un sistema para una inmobiliaria el cual se encargaria de facilitar la consulta de clientes sobre distintos tipos de inmuebles para alquilar o comprar. Considerando dos tipos de usuarios, el cliente que hara lo previamente dicho y podrá realizar reseñas de estos, y el administrador que gestionara las altas, bajas y consultas de los inmuebles.
 
 ### Modelo
-https://drive.google.com/drive/folders/1Knr2XjKzyxp0qlXE8TDpo4KdaIdVoK8Z
-
+![Modelo de datos](Inmobiliaria.png)
 
 ## Alcance Funcional 
 
