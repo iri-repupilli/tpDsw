@@ -27,17 +27,17 @@ Este sistema inmobiliario permite la gestión y publicación de distintos tipos 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario <br>2. CRUD Inmueble<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad|
-|CRUD dependiente|1. CRUD Precio {depende de} CRUD Inmueble<br>2. CRUD Consulta {depende de} CRUD Inmueble|
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Propietario<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad|
+|CRUD dependiente|1. CRUD Inmueble {depende de} CRUD Propietario, TipoServicio, Localidad<br>2. CRUD Consulta {depende de} CRUD Inmueble y Usuario|
 |Listado<br>+<br>detalle| 1. Listado de inmuebles filtrado por tipo de inmueble, muestra los atributos de cada tipo de inmueble => detalle CRUD Inmueble<br> 2. Listado de inmuebles filtrado por localidad, muestra los inmuebles de la localidad elegida => detalle muestra datos de cada inmueble|
-|CUU/Epic|1.Realizar una consulta<br>2. Registrar propietarios|
+|CUU/Epic|1.Realizar una consulta<br>2. Hacer una reseña|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Usuario <br>2. CRUD Inmueble<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad <br/> 5. CRUD Precio <br>6. CRUD Consulta|
-|CUU/Epic|1. Registrar reseña<br>2. Moderar reseña (con API de IA o libreria)|
+|CUU/Epic|1. Agregar la ubicacion de los inmuebles desde un Mapa<br>2. Moderar reseña (con API de IA o libreria)|
 
 
 ### Alcance Adicional Voluntario
@@ -47,5 +47,5 @@ Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |Listados |1. Inmueble filtrado por mts2, antiguedad, fecha de publicacion<br>|
-|Otros|1. Envío de email cuando un usuario se registra y cuando un administrador responde la consulta de un cliente<br/>2. Manejo de archivos comoagregar imagenes del inmueble<br/> 3. Envio de email a los clientes en base a sus gustos|
+|Otros|1. Envío de email cuando un usuario se registra y cuando un administrador responde la consulta de un cliente<br/>2. Manejo de archivos como agregar imagenes del inmueble<br/> 3. Envio de email a los clientes en base a sus gustos|
 
