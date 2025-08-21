@@ -36,7 +36,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Usuario <br>2. CRUD Inmueble<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad <br/> 5. CRUD Precio <br>6. CRUD Consulta|
+|CRUD |1. CRUD Imagenes <br>2. CRUD Reseña<br>|
 |CUU/Epic|1. Agregar la ubicacion de los inmuebles desde un Mapa<br>2. Moderar reseña (con API de IA o libreria)|
 
 
