@@ -17,7 +17,7 @@
 Este sistema inmobiliario permite la gestión y publicación de distintos tipos de inmuebles como casas, departamentos, cocheras y terrenos. Los usuarios pueden ser clientes o administradores, mientras que los propietarios registran sus inmuebles. Cada inmueble incluye información detallada, historial de precios y puede recibir consultas y reseñas. Está clasificado por tipo y servicio (venta o alquiler). Las propiedades están vinculadas a localidades y direcciones específicas. El sistema busca facilitar la interacción entre usuarios y la administración eficiente de propiedades.
 
 ### Modelo
-![Modelo de datos](Inmobiliaria.png)
+![Modelo de datos](Inmobiliaria2.jpg)
 
 ## Alcance Funcional 
 
