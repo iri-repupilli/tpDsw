@@ -28,15 +28,15 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Usuario <br>2. CRUD Propietario<br>3. CRUD TipoServicio<br/> 4.CRUD Localidad|
-|CRUD dependiente|1. CRUD Inmueble {depende de} CRUD Propietario, TipoServicio, Localidad<br>2. CRUD Consulta {depende de} CRUD Inmueble y Usuario|
+|CRUD dependiente|1. CRUD Inmueble {depende de} CRUD Propietario, TipoServicio, Localidad<br>2. CRUD Visita {depende de} CRUD Inmueble y Usuario|
 |Listado<br>+<br>detalle| 1. Listado de inmuebles filtrado por tipo de inmueble, muestra los atributos de cada tipo de inmueble => detalle CRUD Inmueble<br> 2. Listado de inmuebles filtrado por localidad, muestra los inmuebles de la localidad elegida => detalle muestra datos de cada inmueble|
-|CUU/Epic|1.Realizar una consulta<br>2. Hacer una reseña|
+|CUU/Epic|1.Solicitar una visita<br>2. Hacer una consulta (dejar una opinion)|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Imagenes <br>2. CRUD Reseña<br>|
+|CRUD |1. CRUD Imagenes <br>2. CRUD Consulta<br>|
 |CUU/Epic|1. Agregar la ubicacion de los inmuebles desde un Mapa<br>2. Moderar reseña (con API de IA o libreria)|
 
 
