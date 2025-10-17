@@ -8,9 +8,8 @@
 * 53133 - Frassine, Lautaro
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/facugreg/inmobiliariaFrontEnd)
 * [backend app](https://github.com/iri-repupilli/inmobiliariaBackend)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
 ### Descripción
